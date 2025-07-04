@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-Xbg45MqvDIk1e563NLpGEulpX6AvL404DP+/iCgW9eFa2BqztiwTexswJo2jLMue"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>GirlsCode.af</title>
+  </head>
+  <body>
+    <!-- nav section -->
+    <nav
+      class="navbar navbar-expand-lg p-2 fixed-top"
+      style="background-color: #4b3f96"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">GirlsCode.af</a>
+        <button
+          class="navbar-toggler text-bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-2">
+            <li class="nav-item ps-2">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="#hero"
+                >خانه</a
+              >
+            </li>
+            <li class="nav-item ps-2">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="#vision"
+                >درباره ما</a
+              >
+            </li>
+            <li class="nav-item ps-2">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="#courses"
+                >دوره ها</a
+              >
+            </li>
+            <li class="nav-item ps-2">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="#contact"
+                >تماس با ما</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="جستجو"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline text-white" type="submit">
+              برو
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <section
+      id="hero"
+      class="d-flex align-items-center bg-purple text-black text-center py-5 mt-5"
+      style="height: 55vh"
+    >
+      <div class="container">
+        <h1 class="mb-3 py-3">به GirlsCode.af خوش آمدید!</h1>
+        <p class="mb-4 py-3 fs-4">
+          در اینجا می‌توانید طراحی وب را با ما یاد بگیرید و آینده‌تان را بسازید.
+        </p>
+        <button
+          type="button"
+          class="btn btn-pink btn-lg py-3 mt-3"
+          data-bs-toggle="modal"
+          data-bs-target="#registerModal"
+        >
+          ثبت‌نام در دوره‌ها
+        </button>
+      </div>
+    </section>
+
+    <!-- Feauture section -->
+    <section id="features" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">ویژگی‌های GirlsCode.af</h2>
+        <div class="row text-center mx-5 mx-md-0">
+          <div class="col-md-4 mb-4">
+            <div class="cards-1 p-4 border rounded shadow-lg h-100">
+              <div class="mb-3 fs-1 text-primary">💻</div>
+              <h5 class="mb-3">دوره‌های رایگان</h5>
+              <p>آموزش HTML، CSS و JavaScript به زبان ساده برای تمام سطوح</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="cards-1 p-4 border rounded shadow-lg h-100">
+              <div class="mb-3 fs-1 text-success">👩‍🏫</div>
+              <h5 class="mb-3">مربیان زن افغان</h5>
+              <p>آموزش توسط متخصصین زن در حوزه تکنولوژی از افغانستان و خارج</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="cards-1 p-4 border rounded shadow-lg h-100">
+              <div class="mb-3 fs-1 text-warning">📜</div>
+              <h5 class="mb-3">گواهینامه پایان دوره</h5>
+              <p>پس از تکمیل هر دوره، دریافت گواهی رسمی برای تقویت رزومه</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Introduction Courses-->
+    <section id="courses" class="container my-5">
+      <h2 class="text-center mb-5" style="font-weight: 700">دوره های ما</h2>
+      <div class="row g-4 mx-4 mx-md-0">
+        <!-- card 1: HTML -->
+        <div class="col-md-4 text-center">
+          <div class="card h-100 shadow-sm border-0">
+            <img
+              src="images/html.webp"
+              class="card-img-top"
+              alt="HTML Course"
+              style="height: 300px"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-purple">HTML مقدماتی</h5>
+              <p class="card-text">
+                آشنایی با ساختار صفحات وب و یادگیری تگ‌های پایه HTML برای شروع
+                طراحی وب.
+              </p>
+              <button
+                class="btn btn-pink w-100"
+                data-bs-toggle="modal"
+                data-bs-target="#registerModal"
+              >
+                ثبت‌نام
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2: CSS -->
+        <div class="col-md-4 text-center">
+          <div class="card h-100 shadow-sm border-0">
+            <img
+              src="images/css.webp"
+              class="card-img-top"
+              alt="CSS Course"
+              style="height: 300px"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-purple">CSS و طراحی ظاهری</h5>
+              <p class="card-text">
+                استایل دادن به صفحات، رنگ‌بندی، تایپوگرافی و ریسپانسیو کردن
+                سایت‌ها با CSS.
+              </p>
+              <button
+                class="btn btn-pink w-100"
+                data-bs-toggle="modal"
+                data-bs-target="#registerModal"
+              >
+                ثبت‌نام
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3: JavaScript -->
+        <div class="col-md-4 text-center">
+          <div class="card h-100 shadow-sm border-0">
+            <img
+              src="images/js.webp"
+              class="card-img-top"
+              alt="JavaScript Course"
+              style="height: 300px"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-purple">JavaScript مقدماتی</h5>
+              <p class="card-text">
+                ایجاد تعامل و داینامیک‌سازی صفحات وب با اصول پایه برنامه‌نویسی
+                جاوااسکریپت.
+              </p>
+              <button
+                class="btn btn-pink w-100"
+                data-bs-toggle="modal"
+                data-bs-target="#registerModal"
+              >
+                ثبت‌نام
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- vision sectin -->
+    <section id="vision" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">چشم‌انداز ما</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <p class="lead text-center">
+              GirlsCode.af با هدف توانمندسازی دختران افغان از طریق آموزش
+              برنامه‌نویسی شکل گرفته است. ما معتقدیم که دسترسی به دانش دیجیتال،
+              کلید ساختن افغانستانی پیشرفته و برابر است. چشم‌انداز ما تربیت نسل
+              جدیدی از دختران است که نه‌تنها در تکنولوژی حضور دارند، بلکه در آن
+              پیشگام‌اند. .با فراهم کردن محیطی ایمن، آموزشی و پشتیبان، تلاش
+              می‌کنیم دختران را به آینده‌ای روشن، شغلی پایدار و نقش‌آفرینی در
+              جامعه دیجیتال رهنمون کنیم.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+      <form class="py-5">
+        <h2 class="text-center mb-4">تماس با ما</h2>
+
+        <div class="mb-3 col-sm-7 mx-auto">
+          <label for="contactName" class="form-label">نام</label>
+          <input
+            type="text"
+            class="form-control"
+            id="contactName"
+            placeholder="نام خود را وارد کنید"
+            required
+          />
+        </div>
+        <div class="mb-3 col-sm-7 mx-auto">
+          <label for="contactEmail" class="form-label">ایمیل</label>
+          <input
+            type="email"
+            class="form-control text-start"
+            id="contactEmail"
+            placeholder="ایمیل خود را وارد کنید"
+            required
+          />
+        </div>
+        <div class="mb-3 col-sm-7 mx-auto">
+          <label for="contactMessage" class="form-label">پیام</label>
+          <textarea
+            class="form-control"
+            id="contactMessage"
+            rows="4"
+            placeholder="پیام خود را بنویسید"
+            required
+          ></textarea>
+        </div>
+        <div class="mb-3 col-sm-7 mx-auto text-end">
+          <button type="submit" class="btn btn-primary">ارسال</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- footer section -->
+    <footer
+      class="bg-purple text-white py-4 mt-5"
+      style="background-color: #4b3f96"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <h5>درباره ما</h5>
+            <p>
+              GirlsCode.af با هدف آموزش و حمایت از دختران افغان در مسیر
+              برنامه‌نویسی ایجاد شده است.
+            </p>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>لینک‌های مهم</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-white text-decoration-none">خانه</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >درباره ما</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">دوره‌ها</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >تماس با ما</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>تماس با ما</h5>
+            <p>
+              ایمیل:
+              <a href="mailto:info@girlscode.af" class="text-white"
+                >info@girlscode.af</a
+              >
+            </p>
+            <p>تلفن: 9377777777+</p>
+            <div>
+              <a href="#" class="text-white me-3 fs-4"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="#" class="text-white me-3 fs-4"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="#" class="text-white me-3 fs-4"
+                ><i class="bi bi-twitter"></i
+              ></a>
+              <a href="#" class="text-white fs-4"
+                ><i class="bi bi-telegram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <hr class="border-light" />
+        <p class="text-center mb-0">
+          © 2025 GirlsCode.af - تمامی حقوق محفوظ است.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Stiky button-->
+    <section class="sticky-button">
+      <button
+        id="stickyRegisterBtn"
+        class="btn btn-pink"
+        data-bs-toggle="modal"
+        data-bs-target="#registerModal"
+      >
+        ثبت‌نام
+      </button>
+    </section>
+
+    <!-- Register modal-->
+    <section class="register">
+      <div
+        class="modal fade"
+        id="registerModal"
+        tabindex="-1"
+        aria-labelledby="registerModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="registerModalLabel">
+                فرم ثبت‌نام دوره‌ها
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="بستن"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="regName" class="form-label">نام کامل</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="regName"
+                    placeholder="نام کامل خود را وارد کنید"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="regEmail" class="form-label">ایمیل</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="regEmail"
+                    placeholder="ایمیل خود را وارد کنید"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="regPhone" class="form-label">شماره تماس</label>
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="regPhone"
+                    placeholder="شماره تماس"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="regSkill" class="form-label">سطح مهارت</label>
+                  <select class="form-select" id="regSkill" required>
+                    <option value="" disabled selected>انتخاب کنید</option>
+                    <option value="beginner">مبتدی</option>
+                    <option value="intermediate">متوسط</option>
+                    <option value="advanced">پیشرفته</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="regCourse" class="form-label"
+                    >دوره مورد علاقه</label
+                  >
+                  <select class="form-select" id="regCourse" required>
+                    <option value="" disabled selected>انتخاب کنید</option>
+                    <option value="html">دوره HTML</option>
+                    <option value="css">دوره CSS</option>
+                    <option value="javascript">دوره JavaScript</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">
+                  ثبت‌نام
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"
+  ></script>
+</html>
